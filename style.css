@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap'); 
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-size: 0.9375rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+
+}
+header {
+text-align: center;
+}
+.firstTitle{
+font-weight: 200;
+color: hsl(234, 12%, 34%);
+margin-top: 3.75rem;
+margin-bottom: -1.25rem;
+}
+.secondTitle,
+h3 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+.mainP{
+ width: 20rem;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 3.75rem;
+}
+p {
+  color: hsl(229, 6%, 66%);
+
+}
+#super,#team,#karma,#calc {
+
+  background-color: white;
+  width: 18.4375rem;
+  height: 12.5rem;
+  border-top: solid;
+  border-radius: 0.3125rem;
+  box-shadow: 0rem 0.625rem 1.5625rem 0rem hsla(229, 6%, 66%,0.2) ;
+  margin-bottom: 1.25rem;
+  position: relative;
+  padding: 1.25rem;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+#super {
+  border-top-color: hsl(180, 62%, 55%);
+}
+
+#team {
+  border-top-color: hsl(0, 78%, 62%);
+}
+#karma {
+  border-top-color: hsl(34, 97%, 64%);
+}
+#calc {
+  border-top-color: hsl(212, 86%, 64%);
+}
+
+img {
+  position: absolute;
+  right: 1.25rem;
+  margin-top: 1.25rem;
+}
+main{
+  margin-bottom: 9.875rem;
+
+}
+
+@media only screen and (min-width:760px){
+  #super{
+    margin-left: 6rem;
+    float: left;
+    margin-top: 8.2rem;
+  }
+body{
+  width:77.625rem;
+}
+  #calc{
+    margin-right: 6rem;
+    margin-top:-24.6875rem;
+  }
+.mainP{
+  width:32rem;
+}
+}
